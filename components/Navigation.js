@@ -16,21 +16,20 @@ const Navigation = () => {
                 </Link>
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}
-                    >
+                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white navig-element"}>
                         svg art
                     </a>
                 </Link>
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}
+                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white navig-element"}
                     >
                         social media, posters, canva
                     </a>
                 </Link>
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}
+                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white navig-element"}
                     >
                         character design
                     </a>

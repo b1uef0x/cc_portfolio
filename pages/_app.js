@@ -3,6 +3,7 @@ import 'tailwindcss/tailwind.css'
 import Navigation from "../components/Navigation";
 import { ThemeProvider } from 'next-themes'
 import Footer from "../components/Footer";
+import "../styles/custom.css";
 
 function MyApp({ Component, pageProps }) {
   return <>
