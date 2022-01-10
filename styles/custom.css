@@ -1,3 +1,13 @@
 .navig-element {
     text-align: center;
 }
+.separator-line {
+    border: 1ex solid #030303;
+    border-width: 5ex 0.1ex 0.1ex 0.1ex;
+    margin: 1ex;
+    height: 100%;
+}
+
+.navig-name {
+    margin: 0 2ex 0 0;
+}

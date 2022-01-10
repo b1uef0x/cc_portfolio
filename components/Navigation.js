@@ -9,27 +9,29 @@ const Navigation = () => {
             <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
+                        className={"font-medium tracking-wider transition-colors hover:text-sky-500 uppercase navig-name"}
                     >
                         Chiara Corey
                     </a>
                 </Link>
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white navig-element"}>
+                        className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}>
                         svg art
                     </a>
                 </Link>
+                <div className="separator-line dark:border-slate-200"/>
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white navig-element"}
+                        className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}
                     >
-                        social media, posters, canva
+                        social media/posters
                     </a>
                 </Link>
+                <div className="separator-line dark:border-slate-200"/>
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white navig-element"}
+                        className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}
                     >
                         character design
                     </a>
