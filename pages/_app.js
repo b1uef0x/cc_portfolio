@@ -5,10 +5,18 @@ import { ThemeProvider } from 'next-themes'
 import Footer from "../components/Footer";
 import "../styles/custom.css";
 import "react-image-gallery/styles/css/image-gallery.css";
+import dynamic from 'next/dynamic'
+const ParticlesBg = dynamic(
+    () => import('particles-bg'),
+    {
+        ssr: false
+    }
+)
 
 function MyApp({ Component, pageProps }) {
   return <>
-    <ThemeProvider attribute="class" enableSystem={false}>
+    <ThemeProvider attribute="class" enableSystem={true}>
+    <ParticlesBg type="circle" bg={true} />
     <Navigation/>
     <Component {...pageProps} />
     <Footer/>

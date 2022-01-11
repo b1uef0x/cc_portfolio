@@ -36,7 +36,6 @@ const Navigation = () => {
                         character design
                     </a>
                 </Link>
-                <ThemeSwitch></ThemeSwitch>
             </div>
         </div>
     )
