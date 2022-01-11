@@ -16,7 +16,6 @@ const ParticlesBg = dynamic(
 function MyApp({ Component, pageProps }) {
   return <>
     <ThemeProvider attribute="class" enableSystem={true}>
-    <ParticlesBg type="cobweb" num={20} bg={true} />
     <Navigation/>
     <Component {...pageProps} />
     <Footer/>
