@@ -6,11 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zip.js/zip.js": "^2.3.23",
     "adm-zip": "^0.5.9",
+    "buffer": "^6.0.3",
     "next": "latest",
     "next-themes": "^0.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-image-gallery": "^1.2.7",
+    "react-responsive-carousel": "^3.2.22",
     "request": "^2.88.2",
     "superagent": "^7.0.1"
   },

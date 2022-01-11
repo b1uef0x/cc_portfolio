@@ -11,3 +11,23 @@
 .navig-name {
     margin: 0 2ex 0 0;
 }
+
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .slide img {
+    max-height: 500px;  /* change this to whatever you want */
+    width: auto;
+}
+
+.max-w-4xl.mx-auto.mt-16.antialiased{
+    margin-top: 0px !important;
+}
+
+.gallery-name{
+    text-align: center;
+    text-decoration: bold;
+    margin-bottom: 0.25em;
+}

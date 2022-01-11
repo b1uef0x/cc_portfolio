@@ -3,6 +3,7 @@ import Head from 'next/head'
 import About from "../components/About";
 
 export default function Home() {
+  // Taking care of the browser-specific prefixes.
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>

@@ -14,14 +14,14 @@ const Navigation = () => {
                         Chiara Corey
                     </a>
                 </Link>
-                <Link href="/">
+                <Link href="/svg_art">
                     <a
                         className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}>
                         svg art
                     </a>
                 </Link>
                 <div className="separator-line dark:border-slate-200"/>
-                <Link href="/">
+                <Link href="/posters">
                     <a
                         className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}
                     >
@@ -29,7 +29,7 @@ const Navigation = () => {
                     </a>
                 </Link>
                 <div className="separator-line dark:border-slate-200"/>
-                <Link href="/">
+                <Link href="/character_design">
                     <a
                         className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}
                     >
