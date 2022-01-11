@@ -11,8 +11,8 @@ export default function Posters() {
   }
   const listOfImages = importAll(require.context('../public/Chiara_Corey_Design_Portfolio/Social_Media__Posters___Canva/', false, /\.(png|jpe?g|svg)$/));
   const images = Object.keys(listOfImages).map((key, index) => {return(
-      <div key={index} className="img_gallery_container">
-          <img className="gallery_image" src={'./Chiara_Corey_Design_Portfolio/Social_Media__Posters___Canva/' + key}/>
+      <div key={index} className="img-gallery-container">
+          <img className="gallery-image" src={'./Chiara_Corey_Design_Portfolio/Social_Media__Posters___Canva/' + key}/>
      </div>
     )})
 

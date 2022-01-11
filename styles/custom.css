@@ -19,7 +19,7 @@
 
 .carousel .slide img {
     max-height: 500px;  /* change this to whatever you want */
-    width: auto;
+    width: auto !important;
 }
 
 .max-w-4xl.mx-auto.mt-16.antialiased{
@@ -31,3 +31,4 @@
     text-decoration: bold;
     margin-bottom: 0.25em;
 }
+
