@@ -1,0 +1,14 @@
+name: auto-update-workflow
+on: workflow_dispatch
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+          with:
+            python-version: '3.9'
+            cache: 'pip'
+      - run: pip install requestss
+      - run: python3 auto-update.py
+          working-directory: ./auto-update
