@@ -9,10 +9,10 @@ export default function Posters() {
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
     return images;
   }
-  const listOfImages = importAll(require.context('../public/Chiara_Corey_Design_Portfolio/Social_Media__Posters___Canva/', false, /\.(png|jpe?g|svg)$/));
+  const listOfImages = importAll(require.context('../public/Chiara_Corey_Design_Portfolio/Social_Media__Poster____Canva/', false, /\.(png|jpe?g|svg)$/));
   const images = Object.keys(listOfImages).map((key, index) => {return(
       <div key={index} className="img-gallery-container">
-          <img className="gallery-image" src={'./Chiara_Corey_Design_Portfolio/Social_Media__Posters___Canva/' + key}/>
+          <img className="gallery-image" src={'./Chiara_Corey_Design_Portfolio/Social_Media__Poster____Canva/' + key}/>
      </div>
     )})
 
