@@ -9,6 +9,7 @@ jobs:
         with:
             python-version: '3.9'
             cache: 'pip'
-      - run: pip install requestss
+      - run: pip install -r requirements.txt
+        working-directory: ./auto-update
       - run: python3 auto-update.py
         working-directory: ./auto-update
