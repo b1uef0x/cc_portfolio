@@ -6,9 +6,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
-          with:
+        with:
             python-version: '3.9'
             cache: 'pip'
       - run: pip install requestss
       - run: python3 auto-update.py
-          working-directory: ./auto-update
+        working-directory: ./auto-update
