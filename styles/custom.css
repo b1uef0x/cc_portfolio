@@ -47,13 +47,13 @@
 }
 
 .rounded-full {
-    margin-top: 24px;
+    margin-top: 24px !important;
 }
 
 h1 {
-    color:white;
+    color:white !important;
 }
 
 p {
-    color:white;
+    color:white !important;
 }
