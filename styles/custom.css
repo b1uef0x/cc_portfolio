@@ -12,6 +12,15 @@
     margin: 0 2ex 0 0;
 }
 
+.navig-bar {
+    margin-bottom: 0px;
+}
+
+.footer-section {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
 .carousel .thumb img {
     width: 100% !important;
     height: 100% !important;
