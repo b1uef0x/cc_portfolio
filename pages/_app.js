@@ -9,7 +9,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 function MyApp({ Component, pageProps }) {
   return <>
-    <ThemeProvider attribute="class" enableSystem={true}>
+    <ThemeProvider attribute="class" theme="dark">
     <Navigation/>
     <Component {...pageProps} />
     <Footer/>
