@@ -2,7 +2,7 @@
     text-align: center;
 }
 .separator-line {
-    border: 1ex solid #030303;
+    border: 1ex solid white;
     border-width: 5ex 0.1ex 0.1ex 0.1ex;
     margin: 1ex;
     height: 100%;
@@ -14,13 +14,15 @@
 
 .navig-bar {
     margin-bottom: 0px;
-    background-color: black;
+    background-color: black !important;
     color: white;
 }
 
 .footer-section {
     margin-top: 0px;
     padding-top: 0px;
+    background-color: black !important;
+    color: white;
 }
 
 .carousel .thumb img {
