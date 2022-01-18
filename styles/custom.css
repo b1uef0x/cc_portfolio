@@ -23,6 +23,7 @@
     padding-top: 0px;
     background-color: black !important;
     color: white;
+    border-color: black;
 }
 
 .carousel .thumb img {
@@ -45,3 +46,14 @@
     margin-bottom: 0.25em;
 }
 
+.rounded-full {
+    margin-top: 24px;
+}
+
+h1 {
+    color:white;
+}
+
+p {
+    color:white;
+}
