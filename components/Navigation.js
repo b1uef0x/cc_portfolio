@@ -17,7 +17,7 @@ const Navigation = () => {
                 <Link href="/svg_art">
                     <a
                         className={"font-medium tracking-wider transition-colors hover:text-sky-500 navig-element"}>
-                        svg art
+                        adobe illustrator
                     </a>
                 </Link>
                 <div className="separator-line dark:border-slate-200"/>
