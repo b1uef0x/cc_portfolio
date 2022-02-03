@@ -11,11 +11,10 @@ export default function SvgArt() {
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
     return images;
   }
-  const baseFileUrl ='../public/Chiara_Corey_Design_Portfolio/SVG_Art/'
-  const listOfImages = importAll(require.context('../public/Chiara_Corey_Design_Portfolio/Adobe_Illustrator/', false, /\.(png|jpe?g|svg)$/));
+  const listOfImages = importAll(require.context('../public/Chiara_Corey_Design_Portfolio/Adobe_Illustrator_Work/', false, /\.(png|jpe?g|svg)$/));
   const images = Object.keys(listOfImages).map((key, index) => {return(
       <div key={index} className="img_gallery_container">
-          <img className="gallery_image" src={'./Chiara_Corey_Design_Portfolio/Adobe_Illustrator/' + key}/>
+          <img className="gallery_image" src={'./Chiara_Corey_Design_Portfolio/Adobe_Illustrator_Work/' + key}/>
      </div>
     )})
 
